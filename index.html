@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bishal Kuwar CV</title>
+
+        
+        <script src="http://127.0.0.1:5500/index.html">
+
+"></script>
+
+        <style>
+            body {
+                background:#f4f6f8;
+                font-family: Arial, sans-serif;
+            }
+
+            .toolbar {
+                text-align:center;
+                margin:20px;
+            }
+
+            button {
+                padding:10px 20px;
+                background:#1a73e8;
+                color:white;
+                border:none;
+                border-radius:5px;
+                cursor:pointer;
+            }
+
+            .cv {
+                width:900px;
+                margin:auto;
+                display:flex;
+                background:white;
+                box-shadow:0 0 10px rgba(0,0,0,0.15);
+            }
+
+            .left {
+                width:30%;
+                background:#eaf1f8;
+                padding:20px;
+            }
+
+            .right {
+                width:70%;
+                padding:30px;
+            }
+
+            img {
+                width:120px;
+                border-radius:50%;
+                display:block;
+                margin:auto;
+            }
+
+            h3 {
+                border-bottom:2px solid #ccc;
+                padding-bottom:5px;
+            }
+
+            .name {
+                font-size:36px;
+                font-weight:bold;
+            }
+
+            .section {
+                margin-top:20px;
+            }
+
+            [contenteditable]:hover {
+                background:#f0f8ff;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="toolbar">
+            <button onclick="downloadPDF()">Download PDF</button>
+        </div>
+
+        <div class="cv" id="cv">
+
+            <div class="left">
+                <img src="https://via.placeholder.com/120">
+
+                <h3>Profile</h3>
+                <p contenteditable="true">
+                    Dedicated and motivated student with diverse skill set including strong communication,
+                    problem-solving and leadership abilities.
+                </p>
+
+                <h3>Contact</h3>
+                <p contenteditable="true">Email: bk4004@gmail.com</p>
+                <p contenteditable="true">Phone: 970332457</p>
+                <p contenteditable="true">Nationality: Nepalese</p>
+
+                <h3>Skills</h3>
+                <ul contenteditable="true">
+                    <li>Networking</li>
+                    <li>C Programming</li>
+                    <li>Java</li>
+                    <li>HTML / CSS</li>
+                    <li>PHP</li>
+                    <li>WordPress</li>
+                </ul>
+
+                <h3>Languages</h3>
+                <p contenteditable="true">English, French (Advanced)</p>
+            </div>
+
+            <div class="right">
+                <div class="name" contenteditable="true">Bishal Kuwar</div>
+                <p contenteditable="true">Student</p>
+
+                <div class="section">
+                    <h3>Experience</h3>
+                    <p contenteditable="true">
+                        <strong>IT Officer</strong> – Texas International College (2017–2020)
+                    </p>
+                    <p contenteditable="true">
+                        Managed IT infrastructure, networking, backups, and security.
+                    </p>
+
+                    <p contenteditable="true">
+                        <strong>Manager</strong> – BG Banyang Ent. (2021–2023)
+                    </p>
+                    <p contenteditable="true">
+                        Led teams, managed budgets, and ensured project success.
+                    </p>
+                </div>
+
+                <div class="section">
+                    <h3>Education</h3>
+                    <p contenteditable="">
+                        Master in IMBA(INTERNATIONAL BUSINESS MANAGEMENT
+                        IST College of Management, Greece
+                        <br><br>
+                        Bachelor in BCA(Computer Application)
+                        Bangalore University, India-Bangalore
+                        <br><br>
+                        +2 in
+                        Computer Management
+                        Modern Bording Higher secondary school, Nepal
+                    </p>"
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
